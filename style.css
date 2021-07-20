@@ -1,0 +1,48 @@
+#container-fluid{
+border: 2px solid black;
+  height: 50vw;
+  width: 50vw;
+position: relative;
+margin: auto;
+background-image: url(clock.png);
+background-size: 100%;
+}
+#hour,#min,#sec{
+  position: absolute;
+  background-color: black;
+
+}
+#hour{
+  height: 25%;
+  width: 2%;
+  left: 49%;
+  top: 24%;
+
+transform-origin: bottom;
+
+}
+h1{
+  font-size: 1.5rem;
+
+  position: relative;
+left: 30%;
+top: 5%;
+}
+#min{
+  height: 35%;
+  width: 1%;
+  left: 49.5%;
+  top: 15%;
+
+transform-origin: bottom;
+
+}
+#sec{
+  height: 28%;
+  width: 1%;
+  left: 49.5%;
+  top: 21%;
+
+  transform-origin: bottom;
+
+}
